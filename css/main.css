@@ -91,6 +91,9 @@ html{
     .list span:not(:nth-of-type(1)){
         border-left: solid rgb(54, 51, 47) 4px;
     }
+    .landing{
+        margin: -350px 50px 0 50px;
+    }
     
      
  }
@@ -107,6 +110,7 @@ html{
  
 
     }
+
 
     
 }
