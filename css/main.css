@@ -1,0 +1,120 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Rajdhani&display=swap');
+
+html{
+    font-size: 1.5rem;
+}
+.container{
+    height: 100vh;
+    background-image: linear-gradient(to bottom , 
+    rgba(7, 188, 243, 0.356),
+    rgba(13, 232, 240, 0.356),
+    rgba(7, 231, 164, 0.151)),
+     url(../Images/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.con{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.fixed button{
+    margin-top: 20px;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: rgba(45, 51, 51, 0.925);
+    color: rgb(226, 236, 235);
+    box-shadow: 0 8px 10px rgba(2, 61, 61, 0.541) ;
+    transition: .2s;
+
+}
+.fixed button:hover{
+    background-color: rgba(30, 32, 32, 0.582);
+    
+ 
+ }
+.fixed button:focus{
+   outline: none;
+}
+.fixed button:active{
+    transition: .2s;
+    transform: translateY(15px);
+    box-shadow: 0 2px 10px rgba(2, 61, 61, 0.473) ;
+
+ }
+
+
+
+.landing{
+    color: rgb(45, 51, 51);
+    text-align: center;
+    margin: -250px 50px 0 50px;
+
+}
+.landing h1{
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: 8px;
+    font-size: 5rem;
+    line-height: 5rem;
+}
+
+.list span{
+    font-size: 1.5rem;
+    font-family: 'Rajdhani', sans-serif;
+    padding: 0 15px;
+
+}
+
+
+@media screen and (min-width:480px){
+ 
+    .list span:not(:nth-of-type(1)){
+        border-left: solid rgb(54, 51, 47) 4px;
+    }
+    
+     
+ }
+@media screen and (max-width:480px){
+   html{
+    font-size: .6rem;
+   } 
+
+   .list span{
+    display: block;
+    font-size: 1.5rem;
+    font-family: 'Rajdhani', sans-serif;
+    padding: 8 15px;
+ 
+
+    }
+
+    
+}
+
+@media screen and (max-width:767px){
+
+    html{
+     font-size: 1rem;
+     
+    } 
+ }
