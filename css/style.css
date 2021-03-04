@@ -81,7 +81,7 @@ html {
   .container {
     height: 100vh;
     background-image: linear-gradient(to bottom, rgba(7, 188, 243, 0.356), rgba(13, 232, 240, 0.356), rgba(7, 231, 164, 0.151)), url(../Images/1.jpg);
-    background-size: cover;
+    background-size: contain;
     background-position: bottom;
     background-repeat: no-repeat;
     position: relative; }
